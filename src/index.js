@@ -8,7 +8,7 @@ export function createStore(reducer, initState) {
 }
 
 export function getStore() {
-    return state;
+    return {...state};
 }
 
 export function dispatch(action) {
