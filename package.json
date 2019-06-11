@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "lint": "eslint ./src --fix"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,11 @@
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "babel-jest": "^24.7.1",
-    "jest": "^24.7.1"
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.7.1",
+    "prettier": "^1.18.2"
   },
   "babel": {
     "presets": [
